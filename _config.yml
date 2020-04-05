@@ -4,7 +4,6 @@ markdown: kramdown
 collections:
   item:
     output: true
-    permalink: /item/:path/
 
 defaults:
   - scope:
