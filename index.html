@@ -4,6 +4,10 @@ robots: noindex
 ---
 
 {% for item in site.items %}
-  <h2><a href="{{ item.title }}">{{ item.title }}</a></h2>
+  <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+  <pre>
+  category: {{ item.category }}
+  suburb: {{ item.suburb }}
+  </pre>
   <p>{{ item.content | markdownify }}</p>
 {% endfor %}
