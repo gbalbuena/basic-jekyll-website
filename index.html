@@ -3,11 +3,7 @@ layout: default
 robots: noindex
 ---
 
-{% for item in site.item %}
-  <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
-  <pre>
-  category: {{ item.category }}
-  suburb: {{ item.suburb }}
-  </pre>
-  <p>{{ item.content | markdownify }}</p>
+{% for i in site.item %}
+  <h2><a href="{{ i.url | relative_url }}">{{ i.title }}</a></h2>
+  <p>{{ i.content | markdownify }}</p>
 {% endfor %}
