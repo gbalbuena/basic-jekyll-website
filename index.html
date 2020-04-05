@@ -3,7 +3,7 @@ layout: default
 robots: noindex
 ---
 
-{% for item in site.items %}
+{% for item in site.item %}
   <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
   <pre>
   category: {{ item.category }}
