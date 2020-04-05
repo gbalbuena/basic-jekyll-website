@@ -2,5 +2,5 @@ name: sydney
 markdown: kramdown
 
 collections:
-  item:
+  items:
     output: true
