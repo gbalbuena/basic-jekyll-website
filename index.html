@@ -1,4 +1,4 @@
 {% for item in site.items %}
-  <h2>{{ item.title }} - {{ item.category }} {{ item.suburb }}</h2>
-  <p>{{ staff_member.content | markdownify }}</p>
+  <h2><a href="{{ item.title }}">{{ item.title }}</a></h2>
+  <p>{{ item.content | markdownify }}</p>
 {% endfor %}
