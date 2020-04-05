@@ -11,4 +11,4 @@ defaults:
       path: ""
       type: items
     values:
-      layout: items
+      layout: item
