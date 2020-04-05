@@ -2,12 +2,12 @@ name: sydney
 markdown: kramdown
 
 collections:
-  item:
+  items:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "item"
+      type: "items"
     values:
       layout: "item"
