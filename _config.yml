@@ -2,13 +2,13 @@ name: sydney
 markdown: kramdown
 
 collections:
-  items:
+  item:
     output: true
+    permalink: /item/:path/
 
 defaults:
-  -
-    scope:
-      path: items
-      type: items
+  - scope:
+      path: ""
+      type: "item"
     values:
-      layout: item
+      layout: "item"
