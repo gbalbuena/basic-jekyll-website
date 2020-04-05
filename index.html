@@ -1,3 +1,8 @@
+---
+layout: default
+robots: noindex
+---
+
 {% for item in site.items %}
   <h2><a href="{{ item.title }}">{{ item.title }}</a></h2>
   <p>{{ item.content | markdownify }}</p>
