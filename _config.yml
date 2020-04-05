@@ -4,3 +4,11 @@ markdown: kramdown
 collections:
   items:
     output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: items
+    values:
+      layout: items
