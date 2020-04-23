@@ -11,3 +11,5 @@ defaults:
       type: "items"
     values:
       layout: "item"
+
+theme: jekyll-theme-minimal
