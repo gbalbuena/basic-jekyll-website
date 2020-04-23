@@ -1,5 +1,5 @@
 ---
-title: Lorem ipsum dolor sit amet
+title: Article 2
 category: example
 suburb: example
 ---
